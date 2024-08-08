@@ -1,6 +1,3 @@
-# @autor: Magno Efren
-# Youtube: https://www.youtube.com/c/MagnoEfren/videos
-# Calculadora Basica
 from kivy.app import App
 from kivy.lang import Builder
 
@@ -24,7 +21,7 @@ class Calculadora(App):
 KV = '''
 <FormaButton@Button>:
     font_size: self.width/3
-    color: '#FFFFFF'
+    color: '#FFEFFF'
 GridLayout
     pantalla: entry
     rows: 6
